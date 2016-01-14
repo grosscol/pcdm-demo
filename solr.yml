@@ -1,0 +1,4 @@
+development:
+  url: "http://localhost:8080/tomcat/quod-dev/solr-hydra/grosscol-dev"
+test:
+  url: <%= ENV["UMRDR_SOLR_URL"] || "http://localhost:8080/tomcat/quod-dev/solr-hydra/umrdr" %>
